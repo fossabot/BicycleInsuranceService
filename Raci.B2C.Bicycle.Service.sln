@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raci.B2C.Bicycle.Service", "Raci.B2C.Bicycle.Service\Raci.B2C.Bicycle.Service.csproj", "{7118649D-FDB9-49E8-A31A-9F635E01313A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{BD64086A-8175-4591-96BD-F182C068294E}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Set-VersionNumber.ps1 = PublishScripts\Set-VersionNumber.ps1
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raci.B2C.Bicycle.Service.Tests", "Raci.B2C.Bicycle.Service.Tests\Raci.B2C.Bicycle.Service.Tests.csproj", "{5BC78571-7E39-4383-ADB8-D01096F95A4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raci.B2C.Bicycle.Service.DatabaseMigration", "Raci.B2C.Bicycle.Service.DatabaseMigration\Raci.B2C.Bicycle.Service.DatabaseMigration.csproj", "{CF1FEFF8-9124-4C7B-8CF6-3A09267C444D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7118649D-FDB9-49E8-A31A-9F635E01313A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7118649D-FDB9-49E8-A31A-9F635E01313A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7118649D-FDB9-49E8-A31A-9F635E01313A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7118649D-FDB9-49E8-A31A-9F635E01313A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC78571-7E39-4383-ADB8-D01096F95A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC78571-7E39-4383-ADB8-D01096F95A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC78571-7E39-4383-ADB8-D01096F95A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC78571-7E39-4383-ADB8-D01096F95A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF1FEFF8-9124-4C7B-8CF6-3A09267C444D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1FEFF8-9124-4C7B-8CF6-3A09267C444D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1FEFF8-9124-4C7B-8CF6-3A09267C444D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1FEFF8-9124-4C7B-8CF6-3A09267C444D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
